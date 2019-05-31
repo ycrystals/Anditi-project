@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop Catalogue</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <div class="top-nav container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 text-center">
+                    <h1 id="my-logo">Anditi</h1>
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-12 text-center pt-2">
+                    <form>
+                        <input type="text" id="input" />
+                        <button id="tnav-btn"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                    <img src="https://i.imgur.com/ErgVpA1.png" alt="cart">
+                    <span id="top-price">$2907</span>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="topnav" id="myTopnav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Handbags</a></li>
+                <li><a href="#">Wallets</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Men Store</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Vintage</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+        </nav>
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-sm-12">
+                        <div class="banner-img">
+                            <img src="https://i.imgur.com/nYqHKih.png" alt="product">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-md-6 col-sm-12">
+                        <div class="banner-des">
+                            <h2>COWHIDE <br /> STANDARD CREW</h2>
+                            <p>White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt
+                                is
+                                made of organic cotton and comes in a regular fit.</p>
+                            <button id="banner-btn">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="img-product">
+                            <img src="https://i.imgur.com/LAldmHA.jpg" alt="">
+                            <div>
+                                <h2>BRANED<br /> SHOES</h2>
+                                <button id="dp-btn">SHOP</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <div class="img-product">
+                            <img src="https://i.imgur.com/kaDVhUD.jpg" alt="">
+                            <div>
+                                <h2>BRANED <br />T-SHIRT</h2>
+                                <button id="dp-btn">SHOP</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <div class="img-product">
+                            <img src="https://i.imgur.com/eEAhnCg.jpg" alt="">
+                            <div>
+                                <h2>BRANED <br /> JEANS</h2>
+                                <button id="dp-btn">SHOP</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="des-feature">
+            <h4>FEATURED PRODUCTS</h4>
+        </div>
+
+        <section class="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="product">
+                            <img src="https://i.imgur.com/gOVCmNx.jpg" alt="" />
+                            <div class="text">
+                                <p>BRANDED SHOES</p>
+                                <span>$300</span>
+                                <button class="product-btns">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="product">
+                            <img src="https://i.imgur.com/mzr75MB.jpg" alt="" />
+                            <div class="text">
+                                <p>BRANDED SHOES</p>
+                                <span>$300</span>
+                                <button class="product-btns">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="product">
+                            <img src="https://i.imgur.com/q5yfsM4.jpg" alt="" />
+                            <div class="text">
+                                <p>BRANDED SHOES</p>
+                                <span>$300</span>
+                                <button class="product-btns">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="product">
+                            <img src="https://i.imgur.com/gOVCmNx.jpg" alt="" />
+                            <div class="text">
+                                <p>BRANDED SHOES</p>
+                                <span>$300</span>
+                                <button class="product-btns">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="product">
+                            <img src="https://i.imgur.com/mzr75MB.jpg" alt="" />
+                            <div class="text">
+                                <p>BRANDED SHOES</p>
+                                <span>$300</span>
+                                <button class="product-btns">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mt-4">
+                        <div class="product">
+                            <img src="https://i.imgur.com/q5yfsM4.jpg" alt="" />
+                            <div class="text">
+                                <p>BRANDED SHOES</p>
+                                <span>$300</span>
+                                <button class="product-btns">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="f-item">
+                            <h3>Feature sale</h3>
+
+                            <ul class="f-menu">
+                                <li><a href="#">Alexis Hudson</a></li>
+                                <li><a href="#">American Apparel</a></li>
+                                <li><a href="#">Ben Sherman</a></li>
+                                <li><a href="#">Big Buddha</a></li>
+                                <li><a href="#">Chanel</a></li>
+                                <li><a href="#">Christian Audigier</a></li>
+                                <li><a href="#">Coach</a></li>
+                                <li><a href="#">Cole Haan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <div class="f-item">
+                            <h3>Men store</h3>
+
+                            <ul class="f-menu">
+                                <li><a href="#">Alexis Hudson</a></li>
+                                <li><a href="#">American Apparel</a></li>
+                                <li><a href="#">Ben Sherman</a></li>
+                                <li><a href="#">Big Buddha</a></li>
+                                <li><a href="#">Chanel</a></li>
+                                <li><a href="#">Christian Audigier</a></li>
+                                <li><a href="#">Coach</a></li>
+                                <li><a href="#">Cole Haan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <div class="f-item">
+                            <h3>Women store</h3>
+
+                            <ul class="f-menu">
+                                <li><a href="#">Alexis Hudson</a></li>
+                                <li><a href="#">American Apparel</a></li>
+                                <li><a href="#">Ben Sherman</a></li>
+                                <li><a href="#">Big Buddha</a></li>
+                                <li><a href="#">Chanel</a></li>
+                                <li><a href="#">Christian Audigier</a></li>
+                                <li><a href="#">Coach</a></li>
+                                <li><a href="#">Cole Haan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <div class="f-item">
+                            <h3>Quick link</h3>
+
+                            <ul class="f-menu">
+                                <li><a href="#">Alexis Hudson</a></li>
+                                <li><a href="#">American Apparel</a></li>
+                                <li><a href="#">Ben Sherman</a></li>
+                                <li><a href="#">Big Buddha</a></li>
+                                <li><a href="#">Chanel</a></li>
+                                <li><a href="#">Christian Audigier</a></li>
+                                <li><a href="#">Coach</a></li>
+                                <li><a href="#">Cole Haan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ffooter">
+                <p>Copyright ©2016 by Free Templates</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

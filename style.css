@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* style for top nav */
+
+.top-nav {
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+#my-logo {
+    color: #3cc3b5;
+    font-size: 42px;
+}
+
+#input {
+    width: 80%;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid #9a8f8f;
+    border-right: none;
+    padding: 6px;
+}
+
+#tnav-btn {
+    position: relative;
+    right: 4.4px;
+    padding: 7.4px 12px;
+    background: transparent;
+    border: 1px solid #9a8f8f;
+    border-left: none;
+    color: #9a8f8f;
+}
+
+#top-price {
+    color: rgba(0,0,0,0.3);
+    font-size: 26px;
+    font-weight: 900;
+}
+
+/* end */
+
+/* style for side bar */
+
+/* responsive menu */
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav .icon {
+    font-size: 20px;
+    color: #fff;
+    display: none;
+}
+
+.active a {
+    color: #000 !important; 
+}
+
+@media screen and (max-width: 1120px) {
+    .top-nav {
+        text-align: left !important;
+    }
+
+    .topnav li:not(:first-child) {
+        display: none;
+    }
+
+    .topnav li:first-child a {
+        border-right: none !important;
+    }
+
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+@media screen and (max-width: 1120px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+}
+    .topnav.responsive li {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .topnav.responsive li a {
+        border-right: none;
+    }
+} /* end responsive mennu */
+
+.topnav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #4ccfc1;
+}
+
+.topnav li {
+    display: inline-block;
+    padding: 8px;
+}
+
+.topnav li a {
+    color: #fff;
+    font-size: 20px;
+    border-right: 2px solid #fff;
+    padding-right: 16px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.topnav li:last-child a {
+    border-right: none;
+}
+
+.topnav li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* end */
+
+/* style for banner */
+
+.banner {
+    background: #3fc6b9;
+}
+
+.banner-img {
+    text-align: center;
+    padding: 90px 0;
+    width: 90%;
+}
+
+.banner-des {
+    color: #fff;
+    padding: 90px 0;
+}
+
+.banner-des h2 {
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+
+.banner-des p {
+    font-size: 17px;
+}
+
+#banner-btn {
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 8px 10px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+#banner-btn:hover {
+    padding: 8px 100px;
+    color: #000;
+    background: #4ccfc1;
+}
+
+/* end */
+
+/* style for demo product */
+
+.img-product {
+    display: flex;
+    padding: 20px;
+   justify-content: center;
+}
+
+.img-product h2 {
+    color: #9a8f8f;
+}
+
+#dp-btn {
+    background: #3fc6b9;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+/* end */
+
+.des-feature {
+    background: #3bc3b4;
+    color: #fff;
+    padding: 10px 6%;
+}
+
+.des-feature h4 {
+    margin: 0;
+}
+
+/* style products */
+
+.products {
+    padding: 2% 0;
+}
+
+.product {
+    transition: 0.6s;
+    border: 1px solid #9a8f8f;
+    border-bottom: 4px solid #3cc3b5;
+    padding: 5%;
+    text-align: center;
+}
+
+.product:hover img {
+    transform: scale(1.1);
+}
+
+.product img {
+    width: 128px;
+    height: 128px;
+    transition: 0.5s;
+}
+
+.text p {
+    color: #9a8f8f;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.text span {
+    font-size: 24px;
+    color: #9a8f8f;
+    font-weight: 600;
+}
+
+.product-btns {
+    margin-left: 8px;
+    border: none;
+    border-radius: 4px;
+    background: #3cc3b5;
+    color: #fff;
+    padding: 4px;
+    transition: 0.5s;
+}
+
+.product-btns:hover {
+    background: #000;
+    transform: scale(1.2);
+}
+
+/* end */
+
+
+/* style for footer */
+
+.footer {
+    background: #3bc3b4;
+}
+
+.f-item {
+    color: #fff;
+    padding: 2%;
+}
+
+
+.f-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.f-menu li a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.f-menu li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+#ffooter {
+    background: #4ccfc1;
+    text-align: center;
+    padding: 4px 0;
+    font-size: 18px;
+}
+
+/* end */
